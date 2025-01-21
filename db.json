@@ -9,28 +9,39 @@
   "categories": [
     {
       "createdAt": "2023-11-01T00:29:44.376Z",
+      "name": "Popular",
+      "id": 1,
+      "icon": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Fstar.svg?alt=media"
+    },
+    {
+      "createdAt": "2023-11-01T00:29:44.376Z",
       "name": "Chair",
-      "id": 1
+      "id": 2,
+      "icon": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Fchair.svg?alt=media"
     },
     {
       "createdAt": "2023-11-01T02:04:33.873Z",
       "name": "Table",
-      "id": 2
+      "id": 3,
+      "icon": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Ftable.svg?alt=media"
     },
     {
       "createdAt": "2023-10-31T08:12:32.896Z",
       "name": "Armchair",
-      "id": 3
+      "id": 4,
+      "icon": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Fsofa.svg?alt=media"
     },
     {
       "createdAt": "2023-10-31T08:12:32.896Z",
       "name": "Bed",
-      "id": 4
+      "id": 5,
+      "icon": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Fbed.svg?alt=media"
     },
     {
       "createdAt": "2023-10-31T08:12:32.896Z",
       "name": "Lamb",
-      "id": 5
+      "id": 6,
+      "icon": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Fsofa.svg?alt=media"
     }
   ],
   "products": [
@@ -42,7 +53,7 @@
       "voteNumber": 15,
       "reviewNumber": 50,
       "description": "Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home. ",
-      "categoryId": 5,
+      "categoryId": 6,
       "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
       "createdAt": "2023-11-01T01:02:25.950Z"
     },
@@ -54,7 +65,7 @@
       "voteNumber": 15,
       "reviewNumber": 50,
       "description": "Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home. ",
-      "categoryId": 2,
+      "categoryId": 3,
       "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/minimal-stand.png?alt=media",
       "createdAt": "2023-11-01T01:02:25.950Z"
     },
@@ -66,7 +77,7 @@
       "voteNumber": 15,
       "reviewNumber": 50,
       "description": "Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home. ",
-      "categoryId": 2,
+      "categoryId": 3,
       "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/simple-desk.png?alt=media",
       "createdAt": "2023-11-01T01:02:25.950Z"
     },
@@ -78,7 +89,7 @@
       "voteNumber": 15,
       "reviewNumber": 50,
       "description": "Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home. ",
-      "categoryId": 1,
+      "categoryId": 2,
       "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/simple-desk.png?alt=media",
       "createdAt": "2023-11-01T01:02:25.950Z"
     },
@@ -90,7 +101,7 @@
       "voteNumber": 15,
       "reviewNumber": 50,
       "description": "Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home. ",
-      "categoryId": 4,
+      "categoryId": 5,
       "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
       "createdAt": "2023-11-01T01:02:25.950Z"
     },
@@ -102,7 +113,7 @@
       "voteNumber": 15,
       "reviewNumber": 50,
       "description": "Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home. ",
-      "categoryId": 1,
+      "categoryId": 2,
       "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
       "createdAt": "2023-11-01T01:02:25.950Z"
     },
@@ -114,7 +125,7 @@
       "voteNumber": 15,
       "reviewNumber": 50,
       "description": "Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home. ",
-      "categoryId": 3,
+      "categoryId": 4,
       "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
       "createdAt": "2023-11-01T01:02:25.950Z"
     },
@@ -126,7 +137,7 @@
       "voteNumber": 15,
       "reviewNumber": 50,
       "description": "Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home. ",
-      "categoryId": 4,
+      "categoryId": 5,
       "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
       "createdAt": "2023-11-01T01:02:25.950Z"
     }
