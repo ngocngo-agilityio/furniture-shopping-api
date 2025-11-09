@@ -5,7 +5,8 @@
   "main": "api/server.js",
   "dependencies": {
     "json-server": "^0.17.4",
-    "json-server-auth": "^2.1.0"
+    "json-server-auth": "^2.1.0",
+    "uuid": "^13.0.0"
   },
   "scripts": {
     "server": "json-server --watch db.json --port 8000",

@@ -3,598 +3,101 @@
     {
       "id": 1,
       "email": "ngoc.ngo+1@asnet.com.vn",
-      "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq"
-    }
-  ],
-  "categories": [
-    {
-      "createdAt": "2023-11-01T00:29:44.376Z",
-      "name": "Popular",
-      "id": 1,
-      "iconURL": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Fbed.svg?alt=media"
-    },
-    {
-      "createdAt": "2023-11-01T00:29:44.376Z",
-      "name": "Chair",
-      "id": 2,
-      "iconURL": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Fchair.svg?alt=media"
-    },
-    {
-      "createdAt": "2023-11-01T02:04:33.873Z",
-      "name": "Table",
-      "id": 3,
-      "iconURL": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Ftable.svg?alt=media"
-    },
-    {
-      "createdAt": "2023-10-31T08:12:32.896Z",
-      "name": "Armchair",
-      "id": 4,
-      "iconURL": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Fsofa.svg?alt=media"
-    },
-    {
-      "createdAt": "2023-10-31T08:12:32.896Z",
-      "name": "Bed",
-      "id": 5,
-      "iconURL": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Fbed.svg?alt=media"
-    },
-    {
-      "createdAt": "2023-10-31T08:12:32.896Z",
-      "name": "Lamb",
-      "id": 6,
-      "iconURL": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/category-icons%2Fsofa.svg?alt=media"
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "name": "Glass Table",
-      "price": 177.28,
-      "rating": 4.3,
-      "reviewNumber": 78,
-      "description": "The Glass Table is a high-quality, stylish addition to any home.",
-      "categoryId": 3,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-03-17T21:41:03.293122Z"
+      "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
+      "fullName": "Ngo Thi Ngoc",
+      "phoneNumber": "0909090909",
+      "avatar": "https://via.placeholder.com/150"
     },
     {
       "id": 2,
-      "name": "Comfy Black Armchair",
-      "price": 282.1,
-      "rating": 4.2,
-      "reviewNumber": 24,
-      "description": "The Comfy Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-06-30T21:41:03.293167Z"
+      "email": "ngoc.ngo+2@asnet.com.vn",
+      "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
+      "fullName": "Herry Nguyen",
+      "phoneNumber": "0909090908",
+      "avatar": "https://via.placeholder.com/150"
+    },
+    {
+      "email": "ngoc.ngo+3@gmail.com",
+      "password": "$2a$10$oY5JdfK6pv/T8TZRvYRU4OKpHKVhzfAhS68KqoqGpYaDyWuG7ekYG",
+      "fullName": "David Tran",
+      "phoneNumber": "0909090910",
+      "avatar": "https://via.placeholder.com/150",
+      "id": 3
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "accountId": 1,
+      "cardNumber": "1234567890123456",
+      "cardHolderName": "NGO THI NGOC",
+      "cardExpirationDate": "2025-12-31",
+      "cardCvv": "123",
+      "cardType": "Visa",
+      "cardIssuer": "Bank of America"
+    },
+    {
+      "id": 2,
+      "accountId": 2,
+      "cardNumber": "1234567890123457",
+      "cardHolderName": "HERRY NGUYEN",
+      "cardExpirationDate": "2025-12-31",
+      "cardCvv": "123",
+      "cardType": "Visa",
+      "cardIssuer": "Bank of America"
     },
     {
       "id": 3,
-      "name": "Modern Lamp",
-      "price": 119.68,
-      "rating": 4.4,
-      "reviewNumber": 199,
-      "description": "The Modern Lamp is a high-quality, stylish addition to any home.",
-      "categoryId": 6,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2025-01-15T21:41:03.293181Z"
-    },
-    {
-      "id": 4,
-      "name": "Wooden Bed",
-      "price": 274.48,
-      "rating": 5.0,
-      "reviewNumber": 119,
-      "description": "The Wooden Bed is a high-quality, stylish addition to any home.",
-      "categoryId": 5,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-11-19T21:41:03.293194Z"
-    },
-    {
-      "id": 5,
-      "name": "Queen Bed",
-      "price": 99.44,
-      "rating": 3.8,
-      "reviewNumber": 180,
-      "description": "The Queen Bed is a high-quality, stylish addition to any home.",
-      "categoryId": 5,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-05-17T21:41:03.293206Z"
-    },
-    {
-      "id": 6,
-      "name": "Modern Chair",
-      "price": 112.48,
-      "rating": 4.7,
-      "reviewNumber": 18,
-      "description": "The Modern Chair is a high-quality, stylish addition to any home.",
-      "categoryId": 2,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-12-05T21:41:03.293215Z"
-    },
-    {
-      "id": 7,
-      "name": "Adjustable Bed",
-      "price": 71.7,
-      "rating": 4.5,
-      "reviewNumber": 55,
-      "description": "The Adjustable Bed is a high-quality, stylish addition to any home.",
-      "categoryId": 5,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-09-28T21:41:03.293224Z"
-    },
-    {
-      "id": 8,
-      "name": "Classic Armchair",
-      "price": 320.42,
-      "rating": 4.2,
-      "reviewNumber": 124,
-      "description": "The Classic Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2025-01-08T21:41:03.293235Z"
-    },
-    {
-      "id": 9,
-      "name": "King Size Bed",
-      "price": 158.14,
-      "rating": 4.8,
-      "reviewNumber": 121,
-      "description": "The King Size Bed is a high-quality, stylish addition to any home.",
-      "categoryId": 5,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-06-29T21:41:03.293244Z"
-    },
-    {
-      "id": 10,
-      "name": "Comfy Red Armchair",
-      "price": 217.0,
-      "rating": 4.0,
-      "reviewNumber": 62,
-      "description": "The Comfy Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2025-01-22T21:41:03.293252Z"
-    },
-    {
-      "id": 11,
-      "name": "Elegant Seat",
-      "price": 43.72,
-      "rating": 3.5,
-      "reviewNumber": 117,
-      "description": "The Elegant Seat is a high-quality, stylish addition to any home.",
-      "categoryId": 1,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2024-07-28T21:41:03.293274Z"
-    },
-    {
-      "id": 12,
-      "name": "Modern Red Chair",
-      "price": 136.26,
-      "rating": 3.9,
-      "reviewNumber": 194,
-      "description": "The Modern Chair is a high-quality, stylish addition to any home.",
-      "categoryId": 2,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2024-05-02T21:41:03.293281Z"
-    },
-    {
-      "id": 13,
-      "name": "Trendy Sofa",
-      "price": 380.62,
-      "rating": 4.7,
-      "reviewNumber": 137,
-      "description": "The Trendy Sofa is a high-quality, stylish addition to any home.",
-      "categoryId": 1,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2024-06-02T21:41:03.293289Z"
-    },
-    {
-      "id": 14,
-      "name": "Wooden Chair",
-      "price": 102.48,
-      "rating": 4.0,
-      "reviewNumber": 134,
-      "description": "The Wooden Chair is a high-quality, stylish addition to any home.",
-      "categoryId": 2,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2024-03-04T21:41:03.293297Z"
-    },
-    {
-      "id": 15,
-      "name": "Luxury Couch",
-      "price": 473.42,
-      "rating": 3.6,
-      "reviewNumber": 155,
-      "description": "The Luxury Couch is a high-quality, stylish addition to any home.",
-      "categoryId": 1,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2024-05-22T21:41:03.293304Z"
-    },
-    {
-      "id": 16,
-      "name": "Elegant Red Seat",
-      "price": 262.13,
-      "rating": 4.1,
-      "reviewNumber": 39,
-      "description": "The Elegant Seat is a high-quality, stylish addition to any home.",
-      "categoryId": 1,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/minimal-stand.png?alt=media",
-      "createdAt": "2024-11-14T21:41:03.293311Z"
-    },
-    {
-      "id": 17,
-      "name": "Luxury Couch 1",
-      "price": 369.12,
-      "rating": 3.6,
-      "reviewNumber": 9,
-      "description": "The Luxury Couch is a high-quality, stylish addition to any home.",
-      "categoryId": 1,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/minimal-stand.png?alt=media",
-      "createdAt": "2024-11-27T21:41:03.293319Z"
-    },
-    {
-      "id": 18,
-      "name": "Desk Lamp",
-      "price": 417.6,
-      "rating": 4.1,
-      "reviewNumber": 29,
-      "description": "The Desk Lamp is a high-quality, stylish addition to any home.",
-      "categoryId": 6,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2024-10-23T21:41:03.293325Z"
-    },
-    {
-      "id": 19,
-      "name": "Leather Armchair",
-      "price": 434.36,
-      "rating": 4.0,
-      "reviewNumber": 179,
-      "description": "The Leather Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/minimal-stand.png?alt=media",
-      "createdAt": "2024-11-06T21:41:03.293333Z"
-    },
-    {
-      "id": 20,
-      "name": "Wooden Red Chair",
-      "price": 344.54,
-      "rating": 4.4,
-      "reviewNumber": 74,
-      "description": "The Wooden Chair is a high-quality, stylish addition to any home.",
-      "categoryId": 2,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/minimal-stand.png?alt=media",
-      "createdAt": "2024-12-26T21:41:03.293340Z"
-    },
-    {
-      "id": 21,
-      "name": "Modern Blue Lamp",
-      "price": 216.06,
-      "rating": 3.8,
-      "reviewNumber": 15,
-      "description": "The Modern Lamp is a high-quality, stylish addition to any home.",
-      "categoryId": 6,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2024-03-12T21:41:03.293347Z"
-    },
-    {
-      "id": 22,
-      "name": "Wooden Blue Bed",
-      "price": 288.9,
-      "rating": 3.8,
-      "reviewNumber": 94,
-      "description": "The Wooden Bed is a high-quality, stylish addition to any home.",
-      "categoryId": 5,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/minimal-stand.png?alt=media",
-      "createdAt": "2024-05-01T21:41:03.293354Z"
-    },
-    {
-      "id": 23,
-      "name": "Leather Armchair 1",
-      "price": 372.89,
-      "rating": 4.8,
-      "reviewNumber": 174,
-      "description": "The Leather Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/minimal-stand.png?alt=media",
-      "createdAt": "2024-10-18T21:41:03.293361Z"
-    },
-    {
-      "id": 24,
-      "name": "LED Lamp",
-      "price": 67.84,
-      "rating": 4.4,
-      "reviewNumber": 194,
-      "description": "The LED Lamp is a high-quality, stylish addition to any home.",
-      "categoryId": 6,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2024-09-14T21:41:03.293367Z"
-    },
-    {
-      "id": 25,
-      "name": "Dining Table",
-      "price": 395.44,
-      "rating": 4.7,
-      "reviewNumber": 138,
-      "description": "The Dining Table is a high-quality, stylish addition to any home.",
-      "categoryId": 3,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/simple-desk.png?alt=media",
-      "createdAt": "2024-02-04T21:41:03.293374Z"
-    },
-    {
-      "id": 26,
-      "name": "Classic Red Armchair",
-      "price": 206.78,
-      "rating": 3.6,
-      "reviewNumber": 19,
-      "description": "The Classic Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/simple-desk.png?alt=media",
-      "createdAt": "2025-01-24T21:41:03.293384Z"
-    },
-    {
-      "id": 27,
-      "name": "Leather Armchair 2",
-      "price": 169.85,
-      "rating": 4.8,
-      "reviewNumber": 197,
-      "description": "The Leather Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/simple-desk.png?alt=media",
-      "createdAt": "2024-08-19T21:41:03.293392Z"
-    },
-    {
-      "id": 28,
-      "name": "Queen Red Bed",
-      "price": 118.77,
-      "rating": 3.6,
-      "reviewNumber": 24,
-      "description": "The Queen Bed is a high-quality, stylish addition to any home.",
-      "categoryId": 5,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/minimal-stand.png?alt=media",
-      "createdAt": "2024-03-09T21:41:03.293403Z"
-    },
-    {
-      "id": 29,
-      "name": "Floor Lamp",
-      "price": 403.69,
-      "rating": 4.2,
-      "reviewNumber": 12,
-      "description": "The Floor Lamp is a high-quality, stylish addition to any home.",
-      "categoryId": 6,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2025-01-20T21:41:03.293414Z"
-    },
-    {
-      "id": 30,
-      "name": "Floor Lamp 1",
-      "price": 33.03,
-      "rating": 3.6,
-      "reviewNumber": 119,
-      "description": "The Floor Lamp is a high-quality, stylish addition to any home.",
-      "categoryId": 6,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-08-29T21:41:03.293424Z"
-    },
-    {
-      "id": 31,
-      "name": "Black King Size Bed",
-      "price": 40.27,
-      "rating": 4.1,
-      "reviewNumber": 61,
-      "description": "The King Size Bed is a high-quality, stylish addition to any home.",
-      "categoryId": 5,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/simple-desk.png?alt=media",
-      "createdAt": "2024-04-04T21:41:03.293431Z"
-    },
-    {
-      "id": 32,
-      "name": "Ergonomic Chair",
-      "price": 221.16,
-      "rating": 3.9,
-      "reviewNumber": 126,
-      "description": "The Ergonomic Chair is a high-quality, stylish addition to any home.",
-      "categoryId": 2,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-07-06T21:41:03.293438Z"
-    },
-    {
-      "id": 33,
-      "name": "Glass Black Table",
-      "price": 290.01,
-      "rating": 4.7,
-      "reviewNumber": 43,
-      "description": "The Glass Table is a high-quality, stylish addition to any home.",
-      "categoryId": 3,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-03-30T21:41:03.293445Z"
-    },
-    {
-      "id": 34,
-      "name": "Luxury Couch 2",
-      "price": 435.25,
-      "rating": 4.6,
-      "reviewNumber": 60,
-      "description": "The Luxury Couch is a high-quality, stylish addition to any home.",
-      "categoryId": 1,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/simple-desk.png?alt=media",
-      "createdAt": "2024-10-20T21:41:03.293453Z"
-    },
-    {
-      "id": 35,
-      "name": "Modern Yellow Chair",
-      "price": 40.01,
-      "rating": 4.5,
-      "reviewNumber": 140,
-      "description": "The Modern Chair is a high-quality, stylish addition to any home.",
-      "categoryId": 2,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-05-19T21:41:03.293460Z"
-    },
-    {
-      "id": 36,
-      "name": "Classic Black Armchair",
-      "price": 372.09,
-      "rating": 4.2,
-      "reviewNumber": 168,
-      "description": "The Classic Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-10-07T21:41:03.293467Z"
-    },
-    {
-      "id": 37,
-      "name": "Leather Armchair 3",
-      "price": 273.03,
-      "rating": 4.5,
-      "reviewNumber": 93,
-      "description": "The Leather Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-06-28T21:41:03.293473Z"
-    },
-    {
-      "id": 38,
-      "name": "Ergonomic Chair 1",
-      "price": 182.12,
-      "rating": 3.8,
-      "reviewNumber": 18,
-      "description": "The Ergonomic Chair is a high-quality, stylish addition to any home.",
-      "categoryId": 2,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/simple-desk.png?alt=media",
-      "createdAt": "2024-02-16T21:41:03.293480Z"
-    },
-    {
-      "id": 39,
-      "name": "Wooden Red Bed",
-      "price": 224.24,
-      "rating": 5.0,
-      "reviewNumber": 141,
-      "description": "The Wooden Bed is a high-quality, stylish addition to any home.",
-      "categoryId": 5,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-05-10T21:41:03.293487Z"
-    },
-    {
-      "id": 40,
-      "name": "Desk Lamp 1",
-      "price": 81.12,
-      "rating": 4.3,
-      "reviewNumber": 175,
-      "description": "The Desk Lamp 1 is a high-quality, stylish addition to any home.",
-      "categoryId": 6,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/black-simple-lamp.png?alt=media",
-      "createdAt": "2024-07-17T21:41:03.293499Z"
-    },
-    {
-      "id": 41,
-      "name": "Comfy Armchair",
-      "price": 30.09,
-      "rating": 3.6,
-      "reviewNumber": 39,
-      "description": "The Comfy Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-10-01T21:41:03.293506Z"
-    },
-    {
-      "id": 42,
-      "name": "Office Table",
-      "price": 323.21,
-      "rating": 4.3,
-      "reviewNumber": 118,
-      "description": "The Office Table is a high-quality, stylish addition to any home.",
-      "categoryId": 3,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-06-08T21:41:03.293513Z"
-    },
-    {
-      "id": 43,
-      "name": "Wooden Bold Chair",
-      "price": 164.48,
-      "rating": 5.0,
-      "reviewNumber": 95,
-      "description": "The Wooden Chair is a high-quality, stylish addition to any home.",
-      "categoryId": 2,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-07-06T21:41:03.293519Z"
-    },
-    {
-      "id": 44,
-      "name": "Leather Armchair 4",
-      "price": 458.89,
-      "rating": 4.8,
-      "reviewNumber": 126,
-      "description": "The Leather Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-10-27T21:41:03.293526Z"
-    },
-    {
-      "id": 45,
-      "name": "Leather Armchair 5",
-      "price": 322.4,
-      "rating": 4.6,
-      "reviewNumber": 147,
-      "description": "The Leather Armchair is a high-quality, stylish addition to any home.",
-      "categoryId": 4,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-10-29T21:41:03.293532Z"
-    },
-    {
-      "id": 46,
-      "name": "Glass Green Table",
-      "price": 448.75,
-      "rating": 4.2,
-      "reviewNumber": 127,
-      "description": "The Glass Table is a high-quality, stylish addition to any home.",
-      "categoryId": 3,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-05-05T21:41:03.293539Z"
-    },
-    {
-      "id": 47,
-      "name": "Wooden Black Bed",
-      "price": 232.14,
-      "rating": 3.8,
-      "reviewNumber": 54,
-      "description": "The Wooden Bed is a high-quality, stylish addition to any home.",
-      "categoryId": 5,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-02-10T21:41:03.293546Z"
-    },
-    {
-      "id": 48,
-      "name": "Elegant Yellow Seat",
-      "price": 316.5,
-      "rating": 3.7,
-      "reviewNumber": 68,
-      "description": "The Elegant Seat is a high-quality, stylish addition to any home.",
-      "categoryId": 1,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-02-17T21:41:03.293553Z"
-    },
-    {
-      "id": 49,
-      "name": "Ergonomic Chair 2",
-      "price": 485.51,
-      "rating": 4.4,
-      "reviewNumber": 198,
-      "description": "The Ergonomic Chair is a high-quality, stylish addition to any home.",
-      "categoryId": 2,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-04-19T21:41:03.293560Z"
-    },
-    {
-      "id": 50,
-      "name": "Glass Red Table",
-      "price": 268.47,
-      "rating": 4.6,
-      "reviewNumber": 103,
-      "description": "The Glass Table is a high-quality, stylish addition to any home.",
-      "categoryId": 3,
-      "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/coffee-chair.png?alt=media",
-      "createdAt": "2024-02-21T21:41:03.293566Z"
+      "accountId": 3,
+      "cardNumber": "4069817919969256",
+      "cardHolderName": "DAVID TRAN",
+      "cardExpirationDate": "2025-12-31",
+      "cardCvv": "123",
+      "cardType": "Visa",
+      "cardIssuer": "Bank of America"
     }
   ],
-  "cart_items": []
+  "accounts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "currency": "USD",
+      "accountBalance": 1000000,
+      "accountNumber": "1234567890123456"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "currency": "USD",
+      "accountBalance": 1000000,
+      "accountNumber": "1234567890123457"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "accountNumber": "6307230392",
+      "balance": 1000000,
+      "currency": "VND",
+      "created_at": "2025-11-09T14:19:08.005Z"
+    }
+  ],
+  "recipients": [
+    {
+      "id": 1,
+      "userId": 1,
+      "recipientId": 2,
+      "nickname": "Quan"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "cardId": 1,
+      "amount": 1000000,
+      "transactionDate": "2025-12-31",
+      "transactionType": "Payment",
+      "transactionStatus": "Success"
+    }
+  ]
 }
