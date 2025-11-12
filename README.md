@@ -37,6 +37,15 @@ pnpm run start
     }
     ```
 
+    /login
+
+    ```
+    {
+        "email": "ngoc.ngo@gmail.com",
+        "password": "abcd1234@Q"
+    }
+    ```
+
 2. Init account (create account and card)
 
     /init-account
