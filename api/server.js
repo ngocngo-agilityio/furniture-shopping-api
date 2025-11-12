@@ -17,7 +17,7 @@ const rules = auth.rewriter({
 // You must apply the middlewares in the following order
 app.use(rules);
 
-app.post("/init-user", (req, res) => {
+app.post("/init-account", (req, res) => {
   const { fullName, userId } = req.body;
   const db = router.db;
 

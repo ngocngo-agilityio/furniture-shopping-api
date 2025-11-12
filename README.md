@@ -39,7 +39,7 @@ pnpm run start
 
 2. Init account (create account and card)
 
-    /init-user
+    /init-account
 
     ```
     {
