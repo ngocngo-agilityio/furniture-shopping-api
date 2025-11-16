@@ -51,7 +51,29 @@ app.post("/init-account", (req, res) => {
     card,
   });
 });
-
+app.get("/accounts/:id/transactions", (req, res) => {
+  const db = router.db;
+  const accountId = Number(req.params.id);
+  const users = db.get("users").value();
+  const accounts = db.get("accounts").value();
+  const userAccount = accounts.find(a => a.userId === accountId);
+  console.log('userAccount', userAccount);
+  const transactions = db
+    .get("transactions")
+    .filter(t => t.fromAccountId === accountId || t.toAccountId === accountId )
+    .value();
+  console.log('transactions', transactions);
+  const response = transactions.map(t => {
+    const relatedAccount = t.fromAccountId != accountId ? accounts.find(a => a.id === t.fromAccountId) : accounts.find(a => a.id === t.toAccountId);
+    const relatedUser = users.find(u => u.id === relatedAccount.userId);
+    return {
+      ...t,
+      relatedUser,
+      amount: t.fromAccountId != accountId ? t.amount : -t.amount,
+    };
+  });
+  return res.status(200).json(response);
+});
 const middlewares = jsonServer.defaults();
 app.use("/", middlewares);
 
