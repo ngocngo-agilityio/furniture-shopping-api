@@ -36,7 +36,7 @@ app.post("/init-account", (req, res) => {
     accountId: account.id,
     cardNumber: Math.floor(4000000000000000 + Math.random() * 100000000000000).toString(),
     cardHolderName: fullName.toUpperCase(),
-    expiryDate: "12/2028",
+    expiredDate: "12/2028",
     cvv: Math.floor(100 + Math.random() * 900).toString(),
     created_at: new Date().toISOString(),
     cardType: "Mastercard",
