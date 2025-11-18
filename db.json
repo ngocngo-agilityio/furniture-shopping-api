@@ -31,7 +31,7 @@
       "accountId": 1,
       "cardNumber": "1234567890123456",
       "cardHolderName": "NGO THI NGOC",
-      "cardExpirationDate": "2025-12-31",
+      "expiryDate": "12/2028",
       "cardCvv": "123",
       "cardType": "Mastercard",
       "cardLogo": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/bankpick%2Fmastercard-logo.svg?alt=media&token=77966e12-2b8f-43d0-98cf-4b787efe7d64"
@@ -41,7 +41,7 @@
       "accountId": 2,
       "cardNumber": "1234567890123457",
       "cardHolderName": "HERRY NGUYEN",
-      "cardExpirationDate": "2025-12-31",
+      "expiryDate": "12/2028",
       "cardCvv": "123",
       "cardType": "Mastercard",
       "cardLogo": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/bankpick%2Fmastercard-logo.svg?alt=media&token=77966e12-2b8f-43d0-98cf-4b787efe7d64"
@@ -51,7 +51,7 @@
       "accountId": 3,
       "cardNumber": "4069817919969256",
       "cardHolderName": "DAVID TRAN",
-      "cardExpirationDate": "2025-12-31",
+      "expiryDate": "12/2028",
       "cardCvv": "123",
       "cardType": "Mastercard",
       "cardLogo": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/bankpick%2Fmastercard-logo.svg?alt=media&token=77966e12-2b8f-43d0-98cf-4b787efe7d64"

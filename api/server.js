@@ -36,7 +36,7 @@ app.post("/init-account", (req, res) => {
     accountId: account.id,
     cardNumber: Math.floor(4000000000000000 + Math.random() * 100000000000000).toString(),
     cardHolderName: fullName.toUpperCase(),
-    expiryDate: "12/28",
+    expiryDate: "12/2028",
     cvv: Math.floor(100 + Math.random() * 900).toString(),
     created_at: new Date().toISOString(),
     cardType: "Mastercard",
@@ -74,6 +74,7 @@ app.get("/accounts/:id/transactions", (req, res) => {
   });
   return res.status(200).json(response);
 });
+
 const middlewares = jsonServer.defaults();
 app.use("/", middlewares);
 
