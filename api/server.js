@@ -93,7 +93,13 @@ app.get("/accounts/:id/transactions", (req, res) => {
   const startIndex = (pageNumber - 1) * pageSize;
   const paginated = filtered.slice(startIndex, startIndex + pageSize);
 
-  return res.status(200).json(paginated);
+  return res.status(200).json({
+    transactions: paginated,
+    total: filtered.length,
+    page: pageNumber,
+    limit: pageSize,
+  }
+  );
 });
 
 const middlewares = jsonServer.defaults();
