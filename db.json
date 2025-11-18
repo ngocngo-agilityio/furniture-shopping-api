@@ -6,7 +6,7 @@
       "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
       "fullName": "Ngo Thi Ngoc",
       "phoneNumber": "0909090909",
-      "avatar": "https://via.placeholder.com/150"
+      "avatar": ""
     },
     {
       "id": 2,
@@ -14,14 +14,14 @@
       "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
       "fullName": "Herry Nguyen",
       "phoneNumber": "0909090908",
-      "avatar": "https://via.placeholder.com/150"
+      "avatar": ""
     },
     {
       "email": "ngoc.ngo+3@gmail.com",
       "password": "$2a$10$oY5JdfK6pv/T8TZRvYRU4OKpHKVhzfAhS68KqoqGpYaDyWuG7ekYG",
       "fullName": "David Tran",
       "phoneNumber": "0909090910",
-      "avatar": "https://via.placeholder.com/150",
+      "avatar": "",
       "id": 3
     }
   ],
