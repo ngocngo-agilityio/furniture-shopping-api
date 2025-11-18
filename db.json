@@ -17,12 +17,68 @@
       "avatar": ""
     },
     {
+      "id": 3,
       "email": "ngoc.ngo+3@gmail.com",
       "password": "$2a$10$oY5JdfK6pv/T8TZRvYRU4OKpHKVhzfAhS68KqoqGpYaDyWuG7ekYG",
       "fullName": "David Tran",
       "phoneNumber": "0909090910",
-      "avatar": "",
-      "id": 3
+      "avatar": ""
+    },
+    {
+      "id": 4,
+      "email": "testuser@gmail.com",
+      "password": "$2a$10$Bf/O33CAaMkwHTZ0HO6sreIMCrF5uRJQX.tYavbD/webz5DK2Qa9.",
+      "fullName": "Nguyen Van A",
+      "phoneNumber": "0909090912",
+      "avatar": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 5,
+      "email": "ngoc.ngo+5@asnet.com.vn",
+      "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
+      "fullName": "Tran Thi B",
+      "phoneNumber": "0909090913",
+      "avatar": ""
+    },
+    {
+      "id": 6,
+      "email": "ngoc.ngo+6@asnet.com.vn",
+      "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
+      "fullName": "Le Van C",
+      "phoneNumber": "0909090914",
+      "avatar": ""
+    },
+    {
+      "id": 7,
+      "email": "ngoc.ngo+7@asnet.com.vn",
+      "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
+      "fullName": "Pham Thi D",
+      "phoneNumber": "0909090915",
+      "avatar": ""
+    },
+    {
+      "id": 8,
+      "email": "ngoc.ngo+8@asnet.com.vn",
+      "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
+      "fullName": "Hoang Van E",
+      "phoneNumber": "0909090916",
+      "avatar": ""
+    },
+    {
+      "id": 9,
+      "email": "ngoc.ngo+9@asnet.com.vn",
+      "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
+      "fullName": "Do Thi F",
+      "phoneNumber": "0909090917",
+      "avatar": ""
+    },
+    {
+      "id": 10,
+      "email": "ngoc.ngo+10@asnet.com.vn",
+      "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
+      "fullName": "Nguyen Van G",
+      "phoneNumber": "0909090918",
+      "avatar": ""
     }
   ],
   "cards": [
@@ -55,6 +111,76 @@
       "cardCvv": "123",
       "cardType": "Mastercard",
       "cardLogo": "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/bankpick%2Fmastercard-logo.svg?alt=media&token=77966e12-2b8f-43d0-98cf-4b787efe7d64"
+    },
+    {
+      "id": 4,
+      "accountId": 4,
+      "cardNumber": "5234567890123456",
+      "cardHolderName": "NGUYEN VAN A",
+      "expiredDate": "10/2029",
+      "cardCvv": "456",
+      "cardType": "Visa",
+      "cardLogo": "https://via.placeholder.com/80x50"
+    },
+    {
+      "id": 5,
+      "accountId": 5,
+      "cardNumber": "5234567890123457",
+      "cardHolderName": "TRAN THI B",
+      "expiredDate": "08/2030",
+      "cardCvv": "789",
+      "cardType": "Visa",
+      "cardLogo": "https://via.placeholder.com/80x50"
+    },
+    {
+      "id": 6,
+      "accountId": 6,
+      "cardNumber": "5234567890123458",
+      "cardHolderName": "LE VAN C",
+      "expiredDate": "01/2031",
+      "cardCvv": "321",
+      "cardType": "Mastercard",
+      "cardLogo": "https://via.placeholder.com/80x50"
+    },
+    {
+      "id": 7,
+      "accountId": 7,
+      "cardNumber": "5234567890123459",
+      "cardHolderName": "PHAM THI D",
+      "expiredDate": "06/2031",
+      "cardCvv": "654",
+      "cardType": "Mastercard",
+      "cardLogo": "https://via.placeholder.com/80x50"
+    },
+    {
+      "id": 8,
+      "accountId": 8,
+      "cardNumber": "5234567890123460",
+      "cardHolderName": "HOANG VAN E",
+      "expiredDate": "09/2032",
+      "cardCvv": "987",
+      "cardType": "Visa",
+      "cardLogo": "https://via.placeholder.com/80x50"
+    },
+    {
+      "id": 9,
+      "accountId": 9,
+      "cardNumber": "5234567890123461",
+      "cardHolderName": "DO THI F",
+      "expiredDate": "03/2030",
+      "cardCvv": "159",
+      "cardType": "Visa",
+      "cardLogo": "https://via.placeholder.com/80x50"
+    },
+    {
+      "id": 10,
+      "accountId": 10,
+      "cardNumber": "5234567890123462",
+      "cardHolderName": "NGUYEN VAN G",
+      "expiredDate": "11/2030",
+      "cardCvv": "753",
+      "cardType": "Mastercard",
+      "cardLogo": "https://via.placeholder.com/80x50"
     }
   ],
   "accounts": [
@@ -79,6 +205,62 @@
       "balance": 1000000,
       "currency": "USD",
       "created_at": "2025-11-09T14:19:08.005Z"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "accountNumber": "4307230392",
+      "balance": 2500.5,
+      "currency": "USD",
+      "created_at": "2025-11-10T10:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "accountNumber": "5307230392",
+      "balance": 780.25,
+      "currency": "EUR",
+      "created_at": "2025-11-11T09:30:00.000Z"
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "accountNumber": "6307230393",
+      "balance": 1560.75,
+      "currency": "USD",
+      "created_at": "2025-11-11T12:45:00.000Z"
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "accountNumber": "7307230394",
+      "balance": 900.0,
+      "currency": "VND",
+      "created_at": "2025-11-12T08:20:00.000Z"
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "accountNumber": "8307230395",
+      "balance": 12000.0,
+      "currency": "USD",
+      "created_at": "2025-11-12T15:10:00.000Z"
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "accountNumber": "9307230396",
+      "balance": 340.0,
+      "currency": "EUR",
+      "created_at": "2025-11-13T11:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "accountNumber": "0307230397",
+      "balance": 5600.0,
+      "currency": "USD",
+      "created_at": "2025-11-13T16:40:00.000Z"
     }
   ],
   "recipients": [
@@ -87,6 +269,60 @@
       "userId": 1,
       "recipientId": 2,
       "nickname": "Anonymous"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "recipientId": 3,
+      "nickname": "Friend David"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "recipientId": 1,
+      "nickname": "Ngo Thi Ngoc"
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "recipientId": 4,
+      "nickname": "Nguyen Van A"
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "recipientId": 5,
+      "nickname": "Tran Thi B"
+    },
+    {
+      "id": 6,
+      "userId": 5,
+      "recipientId": 6,
+      "nickname": "Le Van C"
+    },
+    {
+      "id": 7,
+      "userId": 6,
+      "recipientId": 7,
+      "nickname": "Pham Thi D"
+    },
+    {
+      "id": 8,
+      "userId": 7,
+      "recipientId": 8,
+      "nickname": "Hoang Van E"
+    },
+    {
+      "id": 9,
+      "userId": 8,
+      "recipientId": 9,
+      "nickname": "Do Thi F"
+    },
+    {
+      "id": 10,
+      "userId": 9,
+      "recipientId": 10,
+      "nickname": "Nguyen Van G"
     }
   ],
   "transactions": [
@@ -94,7 +330,7 @@
       "id": 1,
       "fromAccountId": 1,
       "toAccountId": 2,
-      "amount": 1000000,
+      "amount": 5.39,
       "transactionDate": "2025-12-31",
       "transactionType": "Transaction",
       "transactionStatus": "Success"
@@ -103,7 +339,7 @@
       "id": 2,
       "fromAccountId": 1,
       "toAccountId": 3,
-      "amount": 1000000,
+      "amount": 12.8,
       "transactionDate": "2025-12-31",
       "transactionType": "Transaction",
       "transactionStatus": "Success"
@@ -112,7 +348,7 @@
       "id": 3,
       "fromAccountId": 2,
       "toAccountId": 3,
-      "amount": 1000000,
+      "amount": 200,
       "transactionDate": "2025-12-31",
       "transactionType": "Transaction",
       "transactionStatus": "Success"
@@ -121,9 +357,81 @@
       "id": 4,
       "fromAccountId": 3,
       "toAccountId": 1,
-      "amount": 1000000,
+      "amount": 10.5,
       "transactionDate": "2025-12-31",
       "transactionType": "Transaction",
+      "transactionStatus": "Success"
+    },
+    {
+      "id": 5,
+      "fromAccountId": 4,
+      "toAccountId": 5,
+      "amount": 50.0,
+      "transactionDate": "2025-11-10",
+      "transactionType": "Transfer",
+      "transactionStatus": "Success"
+    },
+    {
+      "id": 6,
+      "fromAccountId": 5,
+      "toAccountId": 6,
+      "amount": 120.75,
+      "transactionDate": "2025-11-11",
+      "transactionType": "Transfer",
+      "transactionStatus": "Success"
+    },
+    {
+      "id": 7,
+      "fromAccountId": 6,
+      "toAccountId": 7,
+      "amount": 300.0,
+      "transactionDate": "2025-11-12",
+      "transactionType": "Transfer",
+      "transactionStatus": "Success"
+    },
+    {
+      "id": 8,
+      "fromAccountId": 7,
+      "toAccountId": 8,
+      "amount": 75.25,
+      "transactionDate": "2025-11-13",
+      "transactionType": "Transfer",
+      "transactionStatus": "Success"
+    },
+    {
+      "id": 9,
+      "fromAccountId": 8,
+      "toAccountId": 9,
+      "amount": 40.0,
+      "transactionDate": "2025-11-14",
+      "transactionType": "Transfer",
+      "transactionStatus": "Success"
+    },
+    {
+      "id": 10,
+      "fromAccountId": 9,
+      "toAccountId": 10,
+      "amount": 500.0,
+      "transactionDate": "2025-11-15",
+      "transactionType": "Transfer",
+      "transactionStatus": "Success"
+    },
+    {
+      "id": 11,
+      "fromAccountId": 10,
+      "toAccountId": 1,
+      "amount": 220.0,
+      "transactionDate": "2025-11-16",
+      "transactionType": "Transfer",
+      "transactionStatus": "Success"
+    },
+    {
+      "id": 12,
+      "fromAccountId": 2,
+      "toAccountId": 5,
+      "amount": 15.5,
+      "transactionDate": "2025-11-16",
+      "transactionType": "Transfer",
       "transactionStatus": "Success"
     }
   ]

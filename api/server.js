@@ -51,9 +51,11 @@ app.post("/init-account", (req, res) => {
     card,
   });
 });
+
 app.get("/accounts/:id/transactions", (req, res) => {
   const db = router.db;
   const accountId = Number(req.params.id);
+  const { page = 1, limit = 10, fullName } = req.query;
   const users = db.get("users").value();
   const accounts = db.get("accounts").value();
   const userAccount = accounts.find(a => a.userId === accountId);
@@ -63,7 +65,7 @@ app.get("/accounts/:id/transactions", (req, res) => {
     .filter(t => t.fromAccountId === accountId || t.toAccountId === accountId )
     .value();
   console.log('transactions', transactions);
-  const response = transactions.map(t => {
+  const enhancedTransactions = transactions.map(t => {
     const relatedAccount = t.fromAccountId != accountId ? accounts.find(a => a.id === t.fromAccountId) : accounts.find(a => a.id === t.toAccountId);
     const relatedUser = users.find(u => u.id === relatedAccount.userId);
     return {
@@ -72,13 +74,47 @@ app.get("/accounts/:id/transactions", (req, res) => {
       amount: t.fromAccountId != accountId ? t.amount : -t.amount,
     };
   });
-  return res.status(200).json(response);
+
+  // Filter by related user's fullName if provided
+  let filtered = enhancedTransactions;
+  if (fullName) {
+    const search = String(fullName).toLowerCase();
+    filtered = enhancedTransactions.filter(item => {
+      const name = item.relatedUser && item.relatedUser.fullName
+        ? String(item.relatedUser.fullName).toLowerCase()
+        : "";
+      return name.includes(search);
+    });
+  }
+
+  // Pagination
+  const pageNumber = Number(page) || 1;
+  const pageSize = Number(limit) || 10;
+  const startIndex = (pageNumber - 1) * pageSize;
+  const paginated = filtered.slice(startIndex, startIndex + pageSize);
+
+  return res.status(200).json(paginated);
 });
 
 const middlewares = jsonServer.defaults();
 app.use("/", middlewares);
 
 app.use(auth);
+
+// Get current logged-in user info
+app.get("/me/:id", (req, res) => {
+  const db = router.db;
+  const userId = Number(req.params.id);
+  const user = db.get("users").find({ id: userId }).value();
+  const account = db.get("accounts").find({ userId: userId }).value();
+  const card = db.get("cards").find({ accountId: account.id }).value();
+  return res.status(200).json({
+    user,
+    account,
+    card,
+  });
+});
+
 app.use(router);
 
 

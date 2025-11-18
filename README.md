@@ -57,7 +57,14 @@ pnpm run start
     }
     ```
 3. Get user info
+
+    /me/:id
+
+
 4. Get bank account info
 5. Make transaction
 6. Get and search transactions
+
+    /accounts/:id/transactions?limit=10&page=1&fullName=David
+
 
