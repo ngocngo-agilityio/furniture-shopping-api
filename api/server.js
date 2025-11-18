@@ -95,7 +95,7 @@ app.get("/accounts/:id/transactions", (req, res) => {
 
   return res.status(200).json({
     transactions: paginated,
-    total: filtered.length,
+    totalPages: Math.ceil(filtered.length / pageSize),
     page: pageNumber,
     limit: pageSize,
   }
