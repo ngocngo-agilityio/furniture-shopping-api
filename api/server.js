@@ -37,7 +37,7 @@ app.post("/init-account", (req, res) => {
     cardNumber: Math.floor(4000000000000000 + Math.random() * 100000000000000).toString(),
     cardHolderName: fullName.toUpperCase(),
     expiredDate: "12/2028",
-    cvv: Math.floor(100 + Math.random() * 900).toString(),
+    cardCvv: Math.floor(100 + Math.random() * 900).toString(),
     created_at: new Date().toISOString(),
     cardType: "Mastercard",
     cardLogo: "https://firebasestorage.googleapis.com/v0/b/ecommerce-fashion-16e2e.appspot.com/o/bankpick%2Fmastercard-logo.svg?alt=media&token=77966e12-2b8f-43d0-98cf-4b787efe7d64"
