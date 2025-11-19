@@ -6,7 +6,7 @@
       "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
       "fullName": "Ngo Thi Ngoc",
       "phoneNumber": "0909090909",
-      "avatar": ""
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/91.jpg"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
       "fullName": "Herry Nguyen",
       "phoneNumber": "0909090908",
-      "avatar": ""
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/93.jpg"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "password": "$2a$10$oY5JdfK6pv/T8TZRvYRU4OKpHKVhzfAhS68KqoqGpYaDyWuG7ekYG",
       "fullName": "David Tran",
       "phoneNumber": "0909090910",
-      "avatar": ""
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/93.jpg"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "password": "$2a$10$Bf/O33CAaMkwHTZ0HO6sreIMCrF5uRJQX.tYavbD/webz5DK2Qa9.",
       "fullName": "Nguyen Van A",
       "phoneNumber": "0909090912",
-      "avatar": "https://via.placeholder.com/150"
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/94.jpg"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
       "fullName": "Tran Thi B",
       "phoneNumber": "0909090913",
-      "avatar": ""
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/11.jpg"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
       "fullName": "Le Van C",
       "phoneNumber": "0909090914",
-      "avatar": ""
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/36.jpg"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
       "fullName": "Pham Thi D",
       "phoneNumber": "0909090915",
-      "avatar": ""
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/46.jpg"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
       "fullName": "Hoang Van E",
       "phoneNumber": "0909090916",
-      "avatar": ""
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/75.jpg"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
       "fullName": "Do Thi F",
       "phoneNumber": "0909090917",
-      "avatar": ""
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/75.jpg"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "password": "$2a$10$NDnx1lq/h1/19O0Sl3sATuxSZbO2ZAV5OD59Li0z2/270Xg.oiMHq",
       "fullName": "Nguyen Van G",
       "phoneNumber": "0909090918",
-      "avatar": ""
+      "avatar": "https://avatars.githubusercontent.com/u/92617267"
     }
   ],
   "cards": [
