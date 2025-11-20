@@ -68,3 +68,32 @@ pnpm run start
     /accounts/:id/transactions?limit=10&page=1&fullName=David
 
 
+7. Create recipients
+
+    POST:
+
+    /recipients
+
+    ```
+    {
+      "accountId": 1,
+      "recipientId": 3,  // recipient account id
+      "nickname": "Friend David" // optional
+    }
+    ```
+8. Send Money:
+
+    POST:
+
+    /transactions
+
+    ```
+    {
+      "fromAccountId": 1,
+      "toAccountId": 3,
+      "amount": 407.76
+    }
+    ```
+9. Get recipients of account
+
+    /accounts/:id/recipients?limit=10&page=1&name=a

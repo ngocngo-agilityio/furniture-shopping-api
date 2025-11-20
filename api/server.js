@@ -102,6 +102,54 @@ app.get("/accounts/:id/transactions", (req, res) => {
   );
 });
 
+
+app.get("/accounts/:id/recipients", (req, res) => {
+  const db = router.db;
+  const accountId = Number(req.params.id);
+  const { page = 1, limit = 10, name } = req.query;
+  const users = db.get("users").value();
+  const accounts = db.get("accounts").value();
+  const userAccount = accounts.find(a => a.userId === accountId);
+  console.log('userAccount', userAccount);
+  const recipients = db
+    .get("recipients")
+    .filter(t => t.accountId === accountId)
+    .value();
+  console.log('recipients', recipients);
+  const enhancedRecipients= recipients.map(t => {
+    const accountInfo = accounts.find(a => a.id === t.recipientId);
+    const relatedUser = users.find(u => u.id === accountInfo.userId);
+    return {
+      ...t,
+      recipientUser: relatedUser,
+    };
+  });
+
+  // Filter by related user's fullName if provided
+  let filtered = enhancedRecipients;
+  if (name) {
+    const search = String(name).toLowerCase();
+    filtered = enhancedRecipients.filter(item => {
+      const nickname = item.nickname.toLowerCase();
+      return nickname.includes(search) || item?.relatedUser?.fullName.toLowerCase().includes(search);
+    });
+  }
+
+  // Pagination
+  const pageNumber = Number(page) || 1;
+  const pageSize = Number(limit) || 10;
+  const startIndex = (pageNumber - 1) * pageSize;
+  const paginated = filtered.slice(startIndex, startIndex + pageSize);
+
+  return res.status(200).json({
+    recipients: paginated,
+    totalPages: Math.ceil(filtered.length / pageSize),
+    page: pageNumber,
+    limit: pageSize,
+  }
+  );
+});
+
 const middlewares = jsonServer.defaults();
 app.use("/", middlewares);
 

@@ -16,7 +16,7 @@
       "fullName": "Herry Nguyen",
       "phoneNumber": "0909090908",
       "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/93.jpg",
-            "birthDate": "1998-08-11"
+      "birthDate": "1998-08-11"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "fullName": "David Tran",
       "phoneNumber": "0909090910",
       "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/93.jpg",
-         "birthDate": "1998-08-11"
+      "birthDate": "1998-08-11"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "fullName": "Nguyen Van A",
       "phoneNumber": "0909090912",
       "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/94.jpg",
-         "birthDate": "1998-08-11"
+      "birthDate": "1998-08-11"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "fullName": "Tran Thi B",
       "phoneNumber": "0909090913",
       "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/11.jpg",
-         "birthDate": "1998-08-11"
+      "birthDate": "1998-08-11"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "fullName": "Le Van C",
       "phoneNumber": "0909090914",
       "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/36.jpg",
-         "birthDate": "1998-08-11"
+      "birthDate": "1998-08-11"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "fullName": "Pham Thi D",
       "phoneNumber": "0909090915",
       "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/46.jpg",
-         "birthDate": "1998-08-11"
+      "birthDate": "1998-08-11"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "fullName": "Hoang Van E",
       "phoneNumber": "0909090916",
       "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/75.jpg",
-         "birthDate": "1998-08-11"
+      "birthDate": "1998-08-11"
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "fullName": "Do Thi F",
       "phoneNumber": "0909090917",
       "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/75.jpg",
-         "birthDate": "1998-08-11"
+      "birthDate": "1998-08-11"
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "fullName": "Nguyen Van G",
       "phoneNumber": "0909090918",
       "avatar": "https://avatars.githubusercontent.com/u/92617267",
-         "birthDate": "1998-08-11"
+      "birthDate": "1998-08-11"
     }
   ],
   "cards": [
@@ -333,6 +333,18 @@
       "accountId": 9,
       "recipientId": 10,
       "nickname": "Nguyen Van G"
+    },
+    {
+      "accountId": 1,
+      "recipientId": 4,
+      "nickname": "Jackson",
+      "id": 11
+    },
+    {
+      "accountId": 1,
+      "recipientId": 6,
+      "nickname": "Big Big",
+      "id": 12
     }
   ],
   "transactions": [
