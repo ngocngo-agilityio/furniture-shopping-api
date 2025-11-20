@@ -276,61 +276,61 @@
   "recipients": [
     {
       "id": 1,
-      "userId": 1,
+      "accountId": 1,
       "recipientId": 2,
       "nickname": "Anonymous"
     },
     {
       "id": 2,
-      "userId": 1,
+      "accountId": 1,
       "recipientId": 3,
       "nickname": "Friend David"
     },
     {
       "id": 3,
-      "userId": 2,
+      "accountId": 2,
       "recipientId": 1,
       "nickname": "Ngo Thi Ngoc"
     },
     {
       "id": 4,
-      "userId": 3,
+      "accountId": 3,
       "recipientId": 4,
       "nickname": "Nguyen Van A"
     },
     {
       "id": 5,
-      "userId": 4,
+      "accountId": 4,
       "recipientId": 5,
       "nickname": "Tran Thi B"
     },
     {
       "id": 6,
-      "userId": 5,
+      "accountId": 5,
       "recipientId": 6,
       "nickname": "Le Van C"
     },
     {
       "id": 7,
-      "userId": 6,
+      "accountId": 6,
       "recipientId": 7,
       "nickname": "Pham Thi D"
     },
     {
       "id": 8,
-      "userId": 7,
+      "accountId": 7,
       "recipientId": 8,
       "nickname": "Hoang Van E"
     },
     {
       "id": 9,
-      "userId": 8,
+      "accountId": 8,
       "recipientId": 9,
       "nickname": "Do Thi F"
     },
     {
       "id": 10,
-      "userId": 9,
+      "accountId": 9,
       "recipientId": 10,
       "nickname": "Nguyen Van G"
     }
