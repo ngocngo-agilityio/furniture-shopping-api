@@ -163,6 +163,19 @@ app.get("/find-account", (req, res) => {
   });
 });
 
+app.post("/make-transaction", (req, res) => {
+  const db = router.db;
+  const { fromAccountId, toAccountId, amount } = req.body;
+  const fromAccount = db.get("accounts").find({ id: fromAccountId }).value();
+  const toAccount = db.get("accounts").find({ id: toAccountId }).value();
+  if (fromAccount.balance < amount) {
+    return res.status(400).json({ error: "Insufficient balance" });
+  }
+  db.get("accounts").find({ id: fromAccountId }).assign({ balance: fromAccount.balance - amount }).write();
+  db.get("accounts").find({ id: toAccountId }).assign({ balance: toAccount.balance + amount }).write();
+  return res.status(200).json({ message: "Transaction successful" });
+});
+
 const middlewares = jsonServer.defaults();
 app.use("/", middlewares);
 
