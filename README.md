@@ -85,7 +85,7 @@ pnpm run start
 
     POST:
 
-    /transactions
+    /make-transaction
 
     ```
     {

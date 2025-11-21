@@ -63,7 +63,7 @@ app.get("/accounts/:id/transactions", (req, res) => {
   const transactions = db
     .get("transactions")
     .filter(t => t.fromAccountId === accountId || t.toAccountId === accountId )
-    .value();
+    .value().sort((a, b) => new Date(b.transactionDate) - new Date(a.transactionDate));
   console.log('transactions', transactions);
   const enhancedTransactions = transactions.map(t => {
     const relatedAccount = t.fromAccountId != accountId ? accounts.find(a => a.id === t.fromAccountId) : accounts.find(a => a.id === t.toAccountId);
@@ -173,6 +173,13 @@ app.post("/make-transaction", (req, res) => {
   }
   db.get("accounts").find({ id: fromAccountId }).assign({ balance: fromAccount.balance - amount }).write();
   db.get("accounts").find({ id: toAccountId }).assign({ balance: toAccount.balance + amount }).write();
+  db.get("transactions").push({
+    id: +(db.get("transactions").size().value()) + 1,
+    fromAccountId: fromAccountId,
+    toAccountId: toAccountId,
+    amount: amount,
+    transactionDate: new Date().toISOString(),
+  }).write();
   return res.status(200).json({ message: "Transaction successful" });
 });
 
