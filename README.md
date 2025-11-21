@@ -77,7 +77,7 @@ pnpm run start
     ```
     {
       "accountId": 1,
-      "recipientId": 3,  // recipient account id
+      "recipientAccountId": 3,  // recipient account id
       "nickname": "Friend David" // optional
     }
     ```

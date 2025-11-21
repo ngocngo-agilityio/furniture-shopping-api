@@ -117,7 +117,7 @@ app.get("/accounts/:id/recipients", (req, res) => {
     .value();
   console.log('recipients', recipients);
   const enhancedRecipients= recipients.map(t => {
-    const accountInfo = accounts.find(a => a.id === t.recipientId);
+    const accountInfo = accounts.find(a => a.id === t.recipientAccountId);
     const relatedUser = users.find(u => u.id === accountInfo.userId);
     return {
       ...t,

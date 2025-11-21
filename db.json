@@ -277,72 +277,72 @@
     {
       "id": 1,
       "accountId": 1,
-      "recipientId": 2,
+      "recipientAccountId": 2,
       "nickname": "Anonymous"
     },
     {
       "id": 2,
       "accountId": 1,
-      "recipientId": 3,
+      "recipientAccountId": 3,
       "nickname": "Friend David"
     },
     {
       "id": 3,
       "accountId": 2,
-      "recipientId": 1,
+      "recipientAccountId": 1,
       "nickname": "Ngo Thi Ngoc"
     },
     {
       "id": 4,
       "accountId": 3,
-      "recipientId": 4,
+      "recipientAccountId": 4,
       "nickname": "Nguyen Van A"
     },
     {
       "id": 5,
       "accountId": 4,
-      "recipientId": 5,
+      "recipientAccountId": 5,
       "nickname": "Tran Thi B"
     },
     {
       "id": 6,
       "accountId": 5,
-      "recipientId": 6,
+      "recipientAccountId": 6,
       "nickname": "Le Van C"
     },
     {
       "id": 7,
       "accountId": 6,
-      "recipientId": 7,
+      "recipientAccountId": 7,
       "nickname": "Pham Thi D"
     },
     {
       "id": 8,
       "accountId": 7,
-      "recipientId": 8,
+      "recipientAccountId": 8,
       "nickname": "Hoang Van E"
     },
     {
       "id": 9,
       "accountId": 8,
-      "recipientId": 9,
+      "recipientAccountId": 9,
       "nickname": "Do Thi F"
     },
     {
       "id": 10,
       "accountId": 9,
-      "recipientId": 10,
+      "recipientAccountId": 10,
       "nickname": "Nguyen Van G"
     },
     {
       "accountId": 1,
-      "recipientId": 4,
+      "recipientAccountId": 4,
       "nickname": "Jackson",
       "id": 11
     },
     {
       "accountId": 1,
-      "recipientId": 6,
+      "recipientAccountId": 6,
       "nickname": "Big Big",
       "id": 12
     }
