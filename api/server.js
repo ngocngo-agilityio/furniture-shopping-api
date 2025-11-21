@@ -150,6 +150,19 @@ app.get("/accounts/:id/recipients", (req, res) => {
   );
 });
 
+app.get("/find-account", (req, res) => {
+  const db = router.db;
+  const { cardNumber } = req.query;
+  const card = db.get("cards").find({ cardNumber: cardNumber }).value();
+  const account = card ? db.get("accounts").find({ id: card.accountId }).value() : null;
+  const user = account ? db.get("users").find({ id: account.userId }).value() : null;
+  return res.status(200).json({
+    account,
+    cardNumber,
+    user
+  });
+});
+
 const middlewares = jsonServer.defaults();
 app.use("/", middlewares);
 
